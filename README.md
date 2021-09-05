@@ -1,6 +1,5 @@
 # Game clone Flappy Bird
 
-> Descrição curta do que o seu projeto faz.
 
 [![Code Size][code-size]][code-url]
 [![License][MIT-license]][MIT-url]
