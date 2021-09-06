@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6253933662936160042}
   - component: {fileID: 6253933662936160041}
   - component: {fileID: 6253933662936160043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LogUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6253933662936160040}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2760625, y: 11.446035, z: 9.334981}
-  m_LocalScale: {x: 0.5660174, y: 0.8264739, z: 0.5660174}
+  m_LocalPosition: {x: 5.2760625, y: 14.7, z: 9.334981}
+  m_LocalScale: {x: 0.56270057, y: 0.80109, z: 0.56270057}
   m_Children: []
   m_Father: {fileID: 6253933663745070806}
   m_RootOrder: 0
@@ -119,7 +119,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6253933663745070806}
   - component: {fileID: 6253933663745070807}
-  m_Layer: 0
+  - component: {fileID: 2225763087465183933}
+  - component: {fileID: 4923933483583959334}
+  m_Layer: 6
   m_Name: Logs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,6 +157,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+--- !u!61 &2225763087465183933
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253933663745070805}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.41492033, y: 14.586988}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.7662, y: 17.660202}
+  m_EdgeRadius: 0
+--- !u!61 &4923933483583959334
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253933663745070805}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.30506563, y: -16.454247}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.676587, y: 22.409283}
+  m_EdgeRadius: 0
 --- !u!1 &6253933664394304067
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +220,7 @@ GameObject:
   - component: {fileID: 6253933664394304076}
   - component: {fileID: 6253933664394304078}
   - component: {fileID: 6253933664394304077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LogDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6253933664394304067}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: -4.5239377, y: -15.753965, z: 9.334981}
+  m_LocalPosition: {x: -4.5239377, y: -13.4, z: 9.334981}
   m_LocalScale: {x: 0.5660174, y: 0.8264739, z: 0.5660174}
   m_Children: []
   m_Father: {fileID: 6253933663745070806}
