@@ -8,13 +8,12 @@ public class SpawnLogs : MonoBehaviour
     public float height; //altura maxima da toras na cena
     public float maxTime = 1f; //intervalo entre aparecimento
     private float timer = 0f;
-
+    
     void Start()
     {
         GameObject newLogs = Instantiate(Logs);
         newLogs.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
     }
-
     void Update()
     {
        if(timer > maxTime){

@@ -25,7 +25,6 @@ public class Bird : MonoBehaviour
         {
             GameController.instance.PauseScreen();
             GameController.instance.ShowGameOver();
-
         }
     }
 }
