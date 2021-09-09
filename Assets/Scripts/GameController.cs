@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     public string levelName;
     public int Score;
     public Text ScoreText;
+    public Text ScoreTextUI;
     private bool paused;
 
     void Start()

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 58435663941351419}
   - component: {fileID: 4575541590338995313}
-  - component: {fileID: 4178288854821198067}
+  - component: {fileID: 7553126641837520336}
   m_Layer: 0
-  m_Name: points
+  m_Name: Points
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.65431404, y: -2.5639372}
+  m_Offset: {x: 1.0297067, y: -2.753345}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -56,9 +56,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.084765434, y: 7.029167}
+  m_Size: {x: 2.4241414, y: 6.1051283}
   m_EdgeRadius: 0
---- !u!114 &4178288854821198067
+--- !u!114 &7553126641837520336
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,7 +97,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6253933662936160040}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2760625, y: 14.7, z: 9.334981}
+  m_LocalPosition: {x: 5.2760625, y: 13.7, z: 9.334981}
   m_LocalScale: {x: 0.56270057, y: 0.80109, z: 0.56270057}
   m_Children: []
   m_Father: {fileID: 6253933663745070806}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53842aba6c229cf48adde28174616e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 6
 --- !u!1 &6253933664394304067
 GameObject:
   m_ObjectHideFlags: 0

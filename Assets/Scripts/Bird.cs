@@ -11,7 +11,6 @@ public class Bird : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-
     }
     void Update()
     {

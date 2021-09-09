@@ -19,7 +19,7 @@ public class SpawnLogs : MonoBehaviour
        if(timer > maxTime){
         GameObject newLogs = Instantiate(Logs);
         newLogs.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
-        Destroy(newLogs, 20f); //destruir toras que já passaram
+        Destroy(newLogs, 15f); //destruir toras que já passaram
         timer = 0;
        }
        timer += Time.deltaTime;
