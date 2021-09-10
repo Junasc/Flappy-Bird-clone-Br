@@ -1,4 +1,4 @@
-# Game clone Flappy Bird
+# flappy Toucan
 
 
 [![Code Size][code-size]][code-url]
