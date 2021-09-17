@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class instrucao : MonoBehaviour
+public class Instruct : MonoBehaviour
 {
     public Text txt;
     public string texto;
