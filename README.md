@@ -5,8 +5,8 @@
 [![License][MIT-license]][MIT-url]
 [![Realese][version]][version-url]
 
-Este é meu clone do jogo Flappy Bird, um jogo originalmente desenvolvido em Hanói pelo programador vietnamita Nguyễn Hà Đông e publicado pela .GEARS studios.
-Nesta versão o cenário é brasileiro, e o personagem é um tucano, ave encontrada principalmente México, Brasil e Argentina.
+Este é meu clone do jogo Flappy Bird, um jogo originalmente desenvolvido em Hanói pelo programador vietnamita Nguyễn Hà Đông e publicado pela GEARS studios.
+Nesta versão o cenário é brasileiro e o personagem é um tucano, ave encontrada principalmente no México, Brasil e Argentina.
 
 
 ## 🎯 Objetivo
