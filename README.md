@@ -1,4 +1,5 @@
 # flappy Toucan
+> 2D , Tap
 
 
 [![Code Size][code-size]][code-url]
