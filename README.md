@@ -12,7 +12,7 @@ Nesta versão o cenário é brasileiro e o personagem é um tucano, ave encontra
 
 ## 🎯 Objetivo
 
-O objetivo do jogo é não encostar nas toras de madeira, ajudando o tucano a fugir do desmatamento da mata atlântica. 
+O objetivo do jogo é não encostar nas toras de madeira, ajudando o tucano a fugir das queimadas na mata atlântica. 
 
 ## ✒️ Justificativa
 
