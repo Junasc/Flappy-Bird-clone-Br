@@ -17,6 +17,7 @@ public class GameController : MonoBehaviour
     public Text ScoreText;
     public Text ScoreTextUI;
     private bool paused;
+    //public AudioSource soundStart;
 
     void Start()
     {
@@ -57,6 +58,7 @@ public class GameController : MonoBehaviour
     {
         GameOver.SetActive(true);
     }
+
     public void RestartGame(string levelName)
     {
         SceneManager.LoadScene(levelName); 

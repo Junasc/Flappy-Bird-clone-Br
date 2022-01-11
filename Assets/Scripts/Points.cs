@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Points : MonoBehaviour
 {
     public GameController controller;
-
+    
     void Start()
     {
         controller = FindObjectOfType<GameController>(); 
