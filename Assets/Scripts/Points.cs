@@ -12,7 +12,6 @@ public class Points : MonoBehaviour
         controller = FindObjectOfType<GameController>(); 
         //como o obj é um prefabs, ele vai procurar por qq objeto c script gamecontroller e passar td isso
     }
-
     void OnTriggerEnter2D(Collider2D colisor)
     {       
         if(colisor.gameObject.layer == 7)

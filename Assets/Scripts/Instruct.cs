@@ -11,9 +11,7 @@ public class Instruct : MonoBehaviour
     void Start()
     {
         StartCoroutine(frase (texto));
-
     }
-
     IEnumerator frase (string frase)
     {
         int letra = 0;

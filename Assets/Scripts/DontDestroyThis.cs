@@ -13,5 +13,4 @@ public class DontDestroyThis : MonoBehaviour
     {
         DontDestroyOnLoad(soundStart);   
     }
-    
 }
