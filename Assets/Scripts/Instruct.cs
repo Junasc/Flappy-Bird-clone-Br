@@ -6,19 +6,21 @@ using UnityEngine.UI;
 public class Instruct : MonoBehaviour
 {
     public Text txt;
+
     public string texto;
 
     void Start()
     {
-        StartCoroutine(frase (texto));
+        StartCoroutine(frase(texto));
     }
-    IEnumerator frase (string frase)
+
+    IEnumerator frase(string frase)
     {
         int letra = 0;
         txt.text = "";
-        while (letra< frase.Length) 
+        while (letra < frase.Length)
         {
-            txt.text += frase [letra];
+            txt.text += frase[letra];
             letra += 1;
             yield return new WaitForSeconds(0.1f);
         }

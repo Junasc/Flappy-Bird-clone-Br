@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Logs : MonoBehaviour
 {
-    public float speed; 
+    public float speed;
 
     void Update()
     {
@@ -13,5 +13,5 @@ public class Logs : MonoBehaviour
         // vector3 sempre tem -1 no x, ou seja, smp vai para esquerda
         // speed para controlar velocidade que ele aparece
         // delta time para ele não chegar de vez
-    } 
+    }
 }
