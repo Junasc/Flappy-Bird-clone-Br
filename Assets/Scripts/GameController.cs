@@ -1,44 +1,55 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
     public GameObject GameOver;
-    public GameObject BackgroundDeforested;
-    public GameObject BackgroundOnFire;
-    public GameObject BackgroundForest;
-    public static GameController instance;
-    public string levelName;
-    public int Score;
-    public Text ScoreText;
-    public Text ScoreTextUI;
-    private bool paused;
-    //public AudioSource soundStart;
 
+    public GameObject BackgroundDeforested;
+
+    public GameObject BackgroundOnFire;
+
+    public GameObject BackgroundForest;
+
+    public static GameController instance;
+
+    public string levelName;
+
+    public int Score;
+
+    public Text ScoreText;
+
+    public Text ScoreTextUI;
+
+    private bool paused;
+
+    //public AudioSource soundStart;
     void Start()
     {
         Time.timeScale = 1f; //para qnd reiniciar o jogo ele despausar
         AudioListener.pause = false;
     }
+
     void Update()
     {
         instance = this;
         Scene scene = SceneManager.GetActiveScene();
-        if(Score == 20 )
+        if (Score == 20)
         {
             BackgroundDeforested.SetActive(true);
             BackgroundOnFire.SetActive(false);
         }
-        if(Score == 50 )
+        if (Score == 50)
         {
             BackgroundDeforested.SetActive(false);
             BackgroundForest.SetActive(true);
         }
     }
+
     public void PauseScreen()
     {
         if (paused)
@@ -54,6 +65,7 @@ public class GameController : MonoBehaviour
             AudioListener.pause = false;
         }
     }
+
     public void ShowGameOver()
     {
         GameOver.SetActive(true);
@@ -61,11 +73,11 @@ public class GameController : MonoBehaviour
 
     public void RestartGame(string levelName)
     {
-        SceneManager.LoadScene(levelName); 
+        SceneManager.LoadScene (levelName);
     }
-    
+
     public void Exit()
     {
         Application.Quit();
-    } 
+    }
 }
