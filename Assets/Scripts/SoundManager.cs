@@ -8,9 +8,7 @@ using UnityEngine.UI;
 public class SoundManager : MonoBehaviour
 {
     public GameController controller;
-
     public GameObject sound;
-
     private bool PausedSound;
 
     void Start()
@@ -19,7 +17,7 @@ public class SoundManager : MonoBehaviour
         AudioSource source = audioSourceGameObject.GetComponent<AudioSource>();
         if (SceneManager.GetActiveScene().name == "cenaPrincipal")
         {
-            source.Stop();
+           Destroy(audioSourceGameObject);
         }
     }
 }

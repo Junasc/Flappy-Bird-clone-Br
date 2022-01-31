@@ -5,11 +5,8 @@ using UnityEngine;
 public class Bird : MonoBehaviour
 {
     public static Bird instance;
-
     public float speed = 1f;
-
     private AudioSource soundFlappy;
-
     private Rigidbody2D rig;
 
     void Start()
@@ -33,8 +30,6 @@ public class Bird : MonoBehaviour
         {
             GameController.instance.PauseScreen();
             AudioListener.pause = true;
-
-            //Destroy(soundFlappy);
             GameController.instance.ShowGameOver();
         }
     }

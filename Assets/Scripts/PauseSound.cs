@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class PauseSound : MonoBehaviour
 {
-    public GameController controller;
-
     public GameObject sound;
-
     private bool PausedSound;
-
     void Start()
     {
         AudioListener.pause = false;
     }
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0))

@@ -8,26 +8,16 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     public GameObject GameOver;
-
     public GameObject BackgroundDeforested;
-
     public GameObject BackgroundOnFire;
-
     public GameObject BackgroundForest;
-
     public static GameController instance;
-
     public string levelName;
-
     public int Score;
-
     public Text ScoreText;
-
     public Text ScoreTextUI;
-
     private bool paused;
 
-    //public AudioSource soundStart;
     void Start()
     {
         Time.timeScale = 1f; //para qnd reiniciar o jogo ele despausar

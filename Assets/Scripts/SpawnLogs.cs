@@ -5,11 +5,8 @@ using UnityEngine;
 public class SpawnLogs : MonoBehaviour
 {
     public GameObject Logs;
-
     public float height; //altura maxima da toras na cena
-
     public float maxTime = 1f; //intervalo entre aparecimento
-
     private float timer = 0f;
 
     void Start()
