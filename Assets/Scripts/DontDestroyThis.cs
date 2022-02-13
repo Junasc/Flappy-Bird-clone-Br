@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class DontDestroyThis : MonoBehaviour
 {
     public AudioSource soundStart;
-
     void Start()
     {
         DontDestroyOnLoad (soundStart);

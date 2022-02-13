@@ -39,7 +39,6 @@ public class GameController : MonoBehaviour
             BackgroundForest.SetActive(true);
         }
     }
-
     public void PauseScreen()
     {
         if (paused)

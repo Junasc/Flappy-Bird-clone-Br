@@ -25,7 +25,7 @@ public class SpawnLogs : MonoBehaviour
             newLogs.transform.position =
                 transform.position +
                 new Vector3(0, Random.Range(-height, height), 0);
-            Destroy(newLogs, 15f); //destruir toras que já passaram
+            Destroy(newLogs, 8f); //destruir toras que já passaram
             timer = 0;
         }
         timer += Time.deltaTime;
