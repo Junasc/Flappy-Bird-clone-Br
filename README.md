@@ -22,7 +22,7 @@ Meu objetivo com este jogo é conhecer a C# e unity.
 ## 👨‍🏫 Exemplo de uso
 
 <p align="center">
-  <img src="./.github/imagemExemplo.png">
+  <img src="./.github/exemplo-de-uso-flappy-toucan.png">
 </p>
 
 ## 👨🏼‍💻 Autor
